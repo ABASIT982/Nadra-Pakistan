@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/*------------------ report-page ------------------*/
+.report-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #053617;
+    margin-bottom: 20px;
+}
+
+/*-------------------- Form Container -----------------*/
+.form-container {
+    padding: 20px;
+    text-align: center;
+    box-shadow: none;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2ECC71;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 12px;
+    background-color: #2ECC71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: transparent;
+        color: #2ECC71;
+        border: 2px solid #2ECC71;
+    }
+}

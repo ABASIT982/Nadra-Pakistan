@@ -1,0 +1,29 @@
+/* --------------------- SMALL NAV-BAR ----------------------- */
+
+.small-navbar {
+    background-color: #053617;
+    padding: 5px ;
+    height: 35px;
+  }
+  
+  .small-navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+  }
+  
+  .small-navbar ul li a {
+    color: #cfc0c0;
+    text-decoration: none;
+    font-size: .8rem;
+  }
+  
+  .small-navbar ul li a:hover {
+    color: #4CAF50;
+  }
+
+  .small-navbar i{
+    padding: 0 10px;
+  }

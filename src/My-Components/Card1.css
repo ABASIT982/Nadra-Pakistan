@@ -1,0 +1,17 @@
+/* <!-- -------------------- CARD ---------------------- --> */
+
+.main-card{
+    /* border: 2px solid red ; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+  .card img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }

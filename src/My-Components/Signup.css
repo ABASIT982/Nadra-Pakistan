@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+.signup-page{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.signup{
+    width: 30vw;
+    height: 70vh;
+    background-color: #053617;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+    
+}
+
+.signup h2{
+    color: white;
+}
+.signup p{
+    color: white;
+    font-size: .8rem;
+}
+.signup input{
+    color: white;
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #2ECC71;
+
+    &::placeholder {
+        color: rgb(177, 169, 169);
+      }
+}
+.signup input:focus {
+    border: 1px solid #2ECC71;
+  }
+.checkBox{
+    margin-left: -300px;
+}
+/* .chk-box{
+    margin-left: 100px;
+    margin-top: -20px;
+} */
+.text{
+    margin-left: 185px;
+    margin-top: 17px;
+}
+/* .agree-text{
+    margin-right: 200px;
+} */
+ 
+.signup label{
+    color: white;
+    font-weight: normal;
+    margin-left: -130px;
+    margin-top: -52px;
+}
+
+.signup-button{
+    background-color: #2ECC71;
+    color: white;
+    height: 50px;
+    width: 380px;
+    border-radius: 6px;
+    border: none;
+    font-size: larger;
+    transition: all 0.1s ease;
+    margin-left: 15px;
+    margin-top: 20px;
+
+    &:hover{
+        background-color: #26a85d;
+        color: white;
+        border: none;
+    }
+}
+
+.signup a{
+    color: #2ECC71;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+}
+.login-button{
+    position: absolute;
+    top: 580px;
+    margin-left: 200px;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/*---------------------- header ------------------- */
+.re-new-header {
+    text-align: center;
+    background-color: #053617;
+    color: white;
+    padding: 20px 0;
+}
+.re-new-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+.re-new-header p {
+    font-size: 1.2rem;
+}
+
+/*------------------- renewal-container -------------------- */
+.renewal-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*--------------------- Left Section -------------------------*/
+.renewal-instructions {
+    flex: 1;
+    background-color: #053617;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.renewal-instructions h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #2ECC71;
+}
+
+.renewal-instructions ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.renewal-instructions li {
+    margin: 10px 0;
+    font-size: .8rem;
+    line-height: 20px;
+}
+
+.renewal-instructions i {
+    color: #fff;
+    margin-right: 10px;
+    font-size: .8rem;
+}
+
+/*-------------------- Right Section -------------------*/
+.renewal-form {
+    flex: 3;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.renewal-form h2 {
+    font-size: 1.5rem;
+    color: #053617;
+    margin-bottom: 15px;
+}
+
+.renewal-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.renewal-form input,
+.renewal-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2ECC71;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.renewal-form button {
+    padding: 12px;
+    background-color: #2ECC71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: transparent;
+        color: #2ECC71;
+        border: 2px solid #2ECC71;
+    }
+}
