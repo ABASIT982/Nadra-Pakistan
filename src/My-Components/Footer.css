@@ -1,0 +1,53 @@
+/* ----------------- FOOTER ----------------------------  */
+.footer{
+
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top a{
+    color: blue;
+}
+.description{
+    height: 200px;
+    background-color: #053617;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.description li{
+    font-size: .65em;
+    list-style-type: none;
+    color: wheat;
+    cursor: pointer;
+}
+.description ul{
+    color: #2ECC71;
+}
+.footer-logo{
+    background-color: black;
+    border-top: 2px solid rgb(117, 113, 113);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.footer-iamge img{
+    height: 100px;
+}
+.copy-right{
+    text-align: center;
+    font-size: .80em;
+}
+.copy-right p{
+    color: rgb(117, 113, 113);
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.contact i{
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+  /* -----------------   NAV-BAR    --------------------------- */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #116530;
+    color: white;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 1); */
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo {
+    height: 60px;
+    width: 55px;
+    background-image: url(../Elements/nadraLogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.logo-text{
+    color: rgb(212, 208, 208);
+}
+.logo-text p:first-child{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height:25px;
+    margin-top: 13px;
+}
+.logo-text p:last-child{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 12px;
+
+    &:hover{
+        color: #2ECC71;
+    }
+}
+
+.login-btn{
+    background-color: #2ECC71;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.5s ease ;
+
+    &:hover{
+        border: 1px solid #2ECC71;
+        background-color: white;
+    }
+}
+
+.signup-btn {
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #2ECC71;
+    transition: all 0.5s ease ;
+
+    &:hover {
+        background-color: white;
+      }
+  }
+
+  /* Responsive Navbar */
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        /* Hide the links by default */
+        flex-direction: column;
+        width: 100%;
+        background-color: #116530;
+    }
+
+    .nav-links.open {
+        display: flex;
+        /* Show the links when the menu is open */
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}

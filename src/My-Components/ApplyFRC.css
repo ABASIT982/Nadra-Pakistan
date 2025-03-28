@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: #f4f4f4;
+}
+
+/*-------------- Header -------------------*/
+.frc-header {
+    text-align: center;
+    background-color: #053617;
+    color: white;
+    padding: 20px 0;
+}
+.frc-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+
+}
+.frc-header p {
+    font-size: 1.2rem;
+}
+.search3{
+    width: 200px;
+    margin-left: 580px;
+}
+
+/*---------------- Main Container -------------------*/
+.frc-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*--------------- Left Section ----------------*/
+.frc-info {
+    /* flex: 1; */
+    background-color: #053617;
+    color: white;
+    width: 300px;
+    border: 1px solid #EAEAEA;
+    padding: 20px;
+    border-radius: 10px;
+}
+.frc-info h2, .frc-info h3 {
+    color: #2ECC71;
+    margin-bottom: 10px;
+}
+.frc-info ul {
+    list-style: none;
+}
+.frc-info ul li {
+    margin-bottom: 10px;
+}
+.frc-info ul li i {
+    color: white;
+    margin-right: 10px;
+    font-size: .8rem;
+}
+
+/*---------------------- Right Section -------------------*/
+.frc-form {
+    flex: 1;
+    border: 1px solid #EAEAEA;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.frc-form h2 {
+    color: #053617;
+    margin-bottom: 20px;
+}
+.frc-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+}
+.frc-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2ECC71;
+    border-radius: 5px;
+}
+.apply-btn {
+    padding: 10px;
+    background-color: #2ECC71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: transparent;
+        color: #2ECC71;
+        border: 2px solid #2ECC71;
+    }
+}
+.result{
+    background-color: #053617;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 50px;
+    color: white;
+    height: 100%;
+}
+.result h4{
+    color: #2ECC71;
+    text-align: center;
+}

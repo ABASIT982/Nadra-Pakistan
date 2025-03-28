@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+.cnic-header {
+    text-align: center;
+    background-color: #053617;
+    color: white;
+    padding: 20px 0;
+}
+.cnic-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+.cnic-header p {
+    font-size: 1.2rem;
+}
+.search-section1{
+    width: 200px;
+    margin-left: 580px;
+}
+
+/*------------------ Apply CNIC Section -------------------------*/
+.apply-cnic {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+/*------------------- Left Section -----------------------------*/
+.left-section {
+    flex: 1;
+    max-width: 20%;
+    background-color: #053617;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.left-section i{
+    color: yellow;
+    margin-right: 15px;
+}
+
+.left-section h2 {
+    margin-bottom: 10px;
+    color: #2ECC71;
+}
+
+.left-section ul {
+    margin-bottom: 20px;
+    list-style:circle;
+    padding-left: 20px;
+}
+
+.left-section p {
+    margin-bottom: 10px;
+}
+
+/*--------------------- Right Section -------------------------*/
+.right-section {
+    flex: 4;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.right-section h2 {
+    margin-bottom: 20px;
+    color: #053617;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2ECC71;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.btn-submit {
+    background-color: #2ECC71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover{
+        background-color: transparent;
+        color: #2ECC71;
+        border: 2px solid #2ECC71;
+    }
+}
+.user-data{
+    background-color: #053617;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 50px;
+    color: white;
+    height: 100%;
+}
+.user-data h3{
+    color: #0ac256;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .apply-cnic {
+        flex-direction: column;
+    }
+
+    .left-section {
+        max-width: 100%;
+    }
+
+    .right-section {
+        max-width: 100%;
+    }
+}

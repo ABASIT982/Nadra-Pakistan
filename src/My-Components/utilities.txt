@@ -1,0 +1,10 @@
+background color "#053617"
+button color "#2ECC71"
+color "white"
+
+
+font family "sans serif"
+font weight "bold" for headings
+font size "14,28"
+
+

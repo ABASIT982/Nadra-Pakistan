@@ -1,0 +1,21 @@
+/* <!-- ---------------- DESCRIPTION -------------------------- --> */
+
+.des-container{
+    height: 350px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .des-info h1{
+    color: #116530;
+  }
+  .des-info{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+  }
+  .des-info p{
+    font-size: large;
+  }
